@@ -23,7 +23,6 @@ body{
 h1{
     font-size: 25px;
     color: #F3F3F4;
-    
 }
 input{
     width: 300px;
@@ -44,17 +43,31 @@ a{
     color: #F3F3F4;
 }
 
-#input_login{
+#input_main{
+    margin: 0;
     color: #F3F3F4;
-    background: rgb(72,192,255);
     background: linear-gradient(90deg, rgba(72,192,255,1) 0%, rgba(51,137,228,1) 100%);
     width: 100%;
 }
-#input_login:hover{
-    background-color: linear-gradient(to bottom right, red, yellow);
+#input_main:hover{
+    background: linear-gradient(90deg, rgb(109, 184, 224) 0%, rgb(10, 124, 246) 100%);
+}
+#input_secondary{
+    margin: 0;
+    color: #F3F3F4;
+    background: linear-gradient(90deg, rgb(92, 92, 92) 0%, rgb(68, 66, 66) 100%);
+    width: 100%;    
+}
+#input_secondary:hover{
+    background: linear-gradient(90deg, rgb(100, 100, 100) 0%, rgb(56, 55, 55) 100%);
 }
 
 label{
     font-size: 15px;
+    color: #F3F3F4;
+}
+
+.span{
+    text-align: center;
     color: #F3F3F4;
 }

@@ -2,14 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-
+    background-color: #464649;
 }
 .main{
-    background-color: #18181B;
+    background-color: rgba(24, 24, 27, 0.9);
 
     position: absolute;
     padding: 2rem;
@@ -20,28 +21,37 @@ body{
     transform: translate(-50%, -50%);
 }
 h1{
-    font-size: 20px;
-    color: rgb(27, 89, 235);
+    font-size: 25px;
+    color: #F3F3F4;
+    
 }
 input{
     width: 300px;
     font-size: 15px;
     padding: 10px;
     margin-top: 10px;
-    border-radius: 7px;
+    border-radius: 2px;
     border: none;
-    outline-color: #1c54ce;
+    outline: none;
     color: #F3F3F4;
     background-color: #464649;
 }
 
+#div_link{
+    text-align: right;
+}
+a{
+    color: #F3F3F4;
+}
+
 #input_login{
     color: #F3F3F4;
-    background-color:#1c54ce;
+    background: rgb(72,192,255);
+    background: linear-gradient(90deg, rgba(72,192,255,1) 0%, rgba(51,137,228,1) 100%);
     width: 100%;
 }
 #input_login:hover{
-    background-color:rgba(60, 109, 245, 0.8);
+    background-color: linear-gradient(to bottom right, red, yellow);
 }
 
 label{
